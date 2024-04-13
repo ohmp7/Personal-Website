@@ -1,0 +1,114 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    gap: 35px;
+}
+.nav-img {
+    margin-top: 75px;
+    position: relative; /* Make sure the pseudo-element is positioned relative to this element */
+    order: -1;
+    background: url(../../assets/ohmp_prof.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    justify-self: center;
+    width: 320px;
+    height: 320px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+}
+.nav-img::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    z-index: -1;
+    animation: profile__border__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__border__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+}
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 88px;
+    font-weight: 600;
+    white-space: nowrap; /* Prevent text from wrapping to multiple lines */
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Display an ellipsis (...) to indicate overflow */
+    order: 2;
+}
+
+.hero h1 span {
+    white-space: normal; /* Allow text to wrap within the span */
+
+}
+.hero h1 .gradient-text {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    order: 3;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    order: 4;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}

@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusted to space elements evenly */
+    margin: 20px 170px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .nav-icons svg {
+    margin-right: 20px; /* Add space between icons */
+    fill: white; 
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    stroke: transparent; /* Set initial outline to transparent */
+    stroke-width: 2px; /* Set the width of the outline */
+  }
+  .nav-icons svg:hover {
+    stroke: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%); /* Apply the gradient as the outline */
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+  }
+  
+  .nav-connect {
+    padding:  18px 36px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .nav-connect:hover {
+    transform: scale(1.05);
+  }
+  
