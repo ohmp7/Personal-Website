@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Adjusted to space elements evenly */
+    justify-content: space-between;
     margin: 20px 170px;
   }
   
@@ -11,16 +11,26 @@
   }
   
   .nav-icons svg {
-    margin-right: 20px; /* Add space between icons */
-    fill: white; 
+    margin-right: 20px;
     cursor: pointer;
-    transition: fill 0.3s ease;
-    stroke: transparent; /* Set initial outline to transparent */
-    stroke-width: 2px; /* Set the width of the outline */
+    transition: transform 0.4s;
   }
-  .nav-icons svg:hover {
-    stroke: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%); /* Apply the gradient as the outline */
+  
+  .nav-icons .LinkedIn:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
   }
+  
+  .nav-icons .Email:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
+  }
+  
+  .nav-icons .Github:hover svg {
+    fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    transform: scale(1.075);
+  }
+  
   .nav-menu {
     display: flex;
     align-items: center;
@@ -30,12 +40,12 @@
   }
   
   .nav-connect {
-    padding:  18px 36px;
+    padding: 18px 36px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
     font-size: 19px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: transform 0.5s;
   }
   
   .nav-connect:hover {
