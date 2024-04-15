@@ -6,7 +6,7 @@ import profile_img from '../../assets/ohmp_prof.jpg';
 const Hero = () => {
   return (
     <div className='hero'>
-      <div className="nav-img"></div> {/* Your image container */}
+      <div className="nav-img"></div> 
     <h1>
         <span className="gradient-text">Hi! I'm Ohm Patel,</span>{' '}
         <TypeAnimation
@@ -14,7 +14,7 @@ const Hero = () => {
             // Same substring at the start will only be typed out once, initially
             'An Aspiring Engineer',
             1500, // wait 1s before replacing "Software Engineer" with "Chef"
-            'An Aspiring Dancer',
+            'An Aspiring Programmer',
             1500,
             'An Aspiring Entrepreneur',
             1500,
