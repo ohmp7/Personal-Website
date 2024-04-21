@@ -8,7 +8,7 @@
     margin-top: 75px;
     position: relative; /* Make sure the pseudo-element is positioned relative to this element */
     order: -1;
-    background: url(../../assets/ohmp_prof.jpg);
+    background: url(../../assets/onprofile.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

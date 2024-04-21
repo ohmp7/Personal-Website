@@ -1,7 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation'; // Import TypeAnimation component
 import './Hero.css';
-import profile_img from '../../assets/ohmp_prof.jpg';
 
 const Hero = () => {
   return (
