@@ -130,6 +130,9 @@
         margin-top: 50px;
         width: 90%;
         font-size: 50px;
+        /* Remove overflow properties */
+        overflow: visible;
+        text-overflow: inherit;
     }
     .hero p{
         width: 60%;
