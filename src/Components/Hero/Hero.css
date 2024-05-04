@@ -63,9 +63,10 @@
     width: 70%;
     font-size: 88px;
     font-weight: 600;
-    white-space: nowrap; /* Prevent text from wrapping to multiple lines */
-    overflow: hidden; /* Hide overflowed text */
-    text-overflow: ellipsis; /* Display an ellipsis (...) to indicate overflow */
+    /* Remove these properties */
+    white-space: normal;
+    overflow: visible;
+    /* End of removal */
     order: 2;
 }
 
