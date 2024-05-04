@@ -45,7 +45,7 @@ const mywork_data = [
         w_no:6,
         w_name:"Web design",
         w_img:project6_img,
-        w_description: "Contributed as a SWE on the Autonomy Subteam within MRover, a robotic team at the University of Michigan. Primarily worked on the design of an algorithm that identifies and maneuvers the rover to ArUco tags up to 20 meters away, leveraging visual odometry data and Robot Operating Systems (ROS) libraries for accurate localization.",
+        w_description: "Contributed as a SWE on the Autonomy Subteam within MRover, a robotics team at the University of Michigan. Primarily worked on the design of an algorithm that identifies and maneuvers the rover to ArUco tags up to 20 meters away, leveraging visual odometry data and Robot Operating Systems (ROS) libraries for accurate localization.",
         w_link: "https://mrover.org/"
     },
 ]
