@@ -86,6 +86,9 @@
 @media(max-width:768px){
   .navbar{
     margin: 20px 50px;
+    margin-left: auto; /* This pushes the container to the right */
+  margin-right: 0; /* Resetting the default margin to ensure it shifts properly */
+  width: 80%; /* You can adjust the width as per your requirement */
   }
   .nav-connect{
     display: none;

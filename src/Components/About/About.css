@@ -109,6 +109,7 @@
     }
     .about-sections{
         flex-direction: column;
+        width: 375px;
     }
     .about-left{
        display: none; 
@@ -128,7 +129,9 @@
         height: 6px;
     }
     .about-achievements{
-        justify-content: space-between;
+        margin-right: 300px;
+        justify-content: flex-start; /* Ensure items start from the left */
+        gap: 20px; /* Add gap between items */
     }
     .about-achievement{
         gap: 10px;
