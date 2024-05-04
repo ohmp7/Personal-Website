@@ -9,15 +9,21 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <div className="nav-icons">
-                        <div className="LinkedIn">
-                            <FaLinkedin className="nav-icon" size={30} />
-                        </div>
-                        <div className="Email">
-                            <FaEnvelope className="nav-icon" size={30} />
-                        </div>
-                        <div className="Github">
-                            <FaGithub className="nav-icon" size={30} />
-                        </div>
+                    <div className="LinkedIn">
+                    <a href="https://www.linkedin.com/in/ohm-patel7/">
+                        <FaLinkedin className="nav-icon" size={30} />
+                    </a>
+                    </div>
+                    <div className="Email">
+                    <a href="mailto:ohmp@umich.edu">
+                    <FaEnvelope className="nav-icon" size={30} />
+                    </a>
+                    </div>
+                    <div className="Github">
+                    <a href="https://github.com/ohmp7">
+                    <FaGithub className="nav-icon" size={30} />
+                    </a>
+                    </div>
                     </div>
                     <p> Connect With Me! </p>
                 </div>
@@ -33,7 +39,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className="footer-bottom-left">Thank you for visiting my personal website!</p>
                 <div className="footer-bottom-right">
-                    <p>Subscribe to see what I am up to!</p>
+                    <p>Built with React, JavaScript, & CSS/HTML</p>
                 </div>
             </div>
         </div>

@@ -1,10 +1,11 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation'; // Import TypeAnimation component
 import './Hero.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <div className="nav-img"></div> 
     <h1>
         <span className="gradient-text">Hi! I'm Ohm Patel,</span>{' '}
@@ -27,7 +28,7 @@ const Hero = () => {
       </h1>
       <p>I am a computer science engineering student at the University of Michigan and am from the Greater Philadelphia Area. </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect"><AnchorLink className='anchor-link' offset={0} href='#contact'>Connect With Me</AnchorLink></div>
         <div className="hero-resume">My resume</div>
       </div>
     </div>

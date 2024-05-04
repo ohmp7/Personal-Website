@@ -79,3 +79,17 @@
     fill: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
     transform: scale(1.075);
   }
+  @media(max-width:768px){
+    .footer{
+        margin: 50px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom:50px;
+    }
+  }
