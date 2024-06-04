@@ -4,8 +4,7 @@ import './Hero.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
-  const resumeLink = 'https://drive.google.com/file/d/1dLcNmdL9uXvSu8JU4Zm6sqbS9GeKiroX/view?usp=sharing';
-
+  const resumeLink = 'https://drive.google.com/file/d/1IVwkZ_VseUPFQvMaWKJOmKSywBS56yTy/view?usp=sharing';
   return (
     <div id='home' className='hero'>
       <div className="nav-img"></div> 
